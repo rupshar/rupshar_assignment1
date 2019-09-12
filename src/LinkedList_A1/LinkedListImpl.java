@@ -19,6 +19,7 @@ public class LinkedListImpl implements LIST_Interface {
 	public Node getRoot(){ //leave this method as is, used by the grader to grab your linkedList easily.
 	  return sentinel;
 	}
+	
 
 	public boolean insert(double elt, int index) {
 		System.out.println("Insert called with elt: " + elt + " and index: " + index);
